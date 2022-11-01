@@ -1,0 +1,107 @@
+body
+{
+    font-family:"roboto";
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+}
+
+
+ul
+{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+    display: flex;
+    gap:15px;
+    
+}
+a
+{
+    text-decoration: none;
+}
+.container1
+{
+    display: flex;
+    flex-direction: column;
+    padding:0px 100px;
+    height:500px;
+    background-color: #1F2937;
+}
+.both1
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+   
+}
+
+.both2
+{
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.afro-logo
+{
+    width:65px;
+    height:65px;
+}
+
+.header1
+{
+    font-size:24px;
+    color:#F9FAF8;
+}
+.paragraph1
+{
+    font-size:18px;
+    color:#E5E7EB;
+}
+.hero-text
+{
+    font-size:48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+    margin:0px;
+}
+
+.one1
+{
+width:450px;
+}
+
+.afro-image1
+{
+    height:250px;
+    width:375px;
+}
+
+#afro-image
+{
+    margin-left:25px;
+}
+
+.button
+{
+    background-color: #3882F6;
+    border-radius: 5px;
+    border:1px #3882F6;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:35px;
+}
+.button:hover
+{
+    background-color: #203e6e;
+    cursor:pointer;
+}
+#button123
+{
+    text-decoration: none;
+    color:white;
+}
