@@ -105,3 +105,161 @@ width:450px;
     text-decoration: none;
     color:white;
 }
+
+.container2
+{
+    height:450px;
+    padding:0px 25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:75px;
+    
+}
+.header
+{
+    display: flex;
+    justify-content: center;
+    font-size:36px;
+    font-weight: bolder;
+    color:#1F2937;
+    margin:30px;
+}
+
+.card
+{
+    width: 225px;
+    height: 350px;
+    border-radius:5px;
+    text-align: center;
+}
+
+.c-name
+{
+    font-size: large;
+    font-weight:500;
+    color:#1F2937;
+}
+
+.cards
+{
+    display: flex;
+    justify-content:space-between;
+    gap:20px;
+    width:1000px;
+}
+
+.container3
+{
+    height:350px;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding:50px 100px;
+}
+
+.quote
+{
+    font-size:36px;
+    font-style: italic;
+    color:#1F2937;
+    padding-top:50px;
+}
+
+#author
+{
+    text-align:end;
+    margin-right:45px;
+    margin-top:0px;
+}
+
+.container4
+{
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.rec-cont
+{
+    background-color: #3882F6;
+    border-radius: 5px;
+    width:800px;
+    height:80px;
+    padding:20px 60px;
+    
+}
+
+.click-me
+{
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 2px white;
+    border-style: solid;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:35px;
+    padding:0px;
+    
+    
+    
+}
+
+.click-me:hover
+{
+    background-color: #203e6e;
+    cursor:pointer;
+}
+
+.button-text
+{
+    padding:5px 10px;
+}
+
+.rec
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:5px;
+
+}
+
+.left1
+{
+    display:flex;
+    flex-direction: column;
+    width:700px;
+    color:white;
+}
+.left2
+{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    
+}
+
+#recommendations
+{
+    margin:0px;
+}
+
+#recommendations1
+{
+    margin:0px;
+}
+
+.footer
+{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
